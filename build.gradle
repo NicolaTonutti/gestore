@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.gestore'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.formdev:flatlaf:3.1.1'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.15.2'
+}
